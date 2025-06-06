@@ -432,7 +432,7 @@ body:before {
 
 @media screen and (max-width: 960px) {
     .menu__container{
-        gap: 6rem;
+        gap: 2rem;
     }
     
     #menu__content {
