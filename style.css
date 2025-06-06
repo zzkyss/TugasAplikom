@@ -486,16 +486,13 @@ body:before {
 
 .footer__links {
     color: #fff;
-    display: flex;
-    flex-direction: column;
     gap: 100px;
 }
 
 .footer__links--wrapper h2 {
-    text-align: center;
     font-size: 4rem;
     font-weight: 800;
-    margin: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 .footer__links--items {
@@ -518,8 +515,9 @@ body:before {
 @media screen and (max-width:960px){
     #footer__container {
         display: flex;
-        flex-direction: column;
-        padding: 2rem 1rem;
+        height: 400px;
+        justify-content: center;
+        text-align: center;
     }
 
     .footer__links--items h2 {
