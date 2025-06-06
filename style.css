@@ -479,6 +479,7 @@ body:before {
 
 .footer__links--items h2 {
     font-size: 4rem;
+    font-weight: 800;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
