@@ -344,6 +344,7 @@ body:before {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8rem;
+    margin-bottom: 2rem;
 }
 
 .menu__card {
@@ -483,6 +484,7 @@ body:before {
 }
 
 .footer__links--wrapper h2 {
+    text-align: center;
     font-size: 4rem;
     font-weight: 800;
     margin: 1rem 0;
