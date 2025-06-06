@@ -20,7 +20,7 @@ body {
     scroll-behavior: smooth;
     background-color: #141414;
     background-image: url('Images/Background.jpg');
-    background-size: cover;
+    background-size: 2000px auto;
     background-repeat: no-repeat;
     background-attachment: fixed; /* agar tidak ikut scroll */
     background-position: center;
@@ -505,7 +505,7 @@ body:before {
 
 @media screen and (max-width:476px) {
     #footer__container {
-        height: 50vh;
+        height: 80vh;
         margin-top: 8rem;
     }
 
