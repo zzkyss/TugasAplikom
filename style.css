@@ -507,7 +507,7 @@ body:before {
 
 @media screen and (max-width:476px) {
     #footer__container {
-        height: 40vh;
+        height: 25vh;
         margin-top: 5rem;
     }
 
