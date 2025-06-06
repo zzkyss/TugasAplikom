@@ -301,6 +301,16 @@ body:before {
     width: 100%;
 }
 
+@media screen and (max-width:476px) {
+    .logo__circle img {
+        width: 400px;
+    }
+
+    .main_content p {
+        font-size: 1.2rem;
+    }
+}
+
 
 
 /* Menu Section CSS */
@@ -479,25 +489,22 @@ body:before {
 
 @media screen and (max-width:960px){
     #footer__container {
-        background-color: #131313;
-        background-size: 100%;
         height: 40vh;
-        margin-top: 5rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
     }
 
     .footer__links--items a {
         display: flex;
         align-items: center;
-        font-family: 'montserrat', sans-serif;
-        font-weight: 300;
-        font-size: 1.1rem;
-        padding: 10px;
-        color: #fff;
-        text-decoration: none;
-        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    #footer__container {
+        height: 40vh;
+    }
+
+    .footer__links--items a {
+        display: flex;
+        align-items: center;
     }
 }
